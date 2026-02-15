@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Ti ❤️</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #ff0000, #40e0d0);
+        text-align: center;
+        color: white;
+    }
+
+    .carta {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 20px;
+        max-width: 600px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.5);
+        animation: aparecer 2s ease-in-out;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    @keyframes aparecer {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+<body>
+
+<div class="carta">
+    <h1>Te amo ❤️</h1>
+    <p>
+        Amo todo de ti.  
+        Amo el color de tus ojos, porque en ellos encuentro paz.  
+        Amo tu forma de reír, porque ilumina incluso mis días más difíciles.  
+        Amo tu voz, porque es el sonido más bonito que he escuchado.  
+        Amo tu sonrisa, tus gestos, la manera en que hablas, la forma en que sueñas.  
+        Amo tu corazón tan noble y tu manera única de ver el mundo.  
+        Amo cada detalle que te hace ser tú.  
+        Y si pudiera elegir mil veces, mil veces te elegiría a ti.  
+        Gracias por existir, gracias por estar en mi vida.  
+        Simplemente… te amo más de lo que las palabras pueden explicar.
+    </p>
+</div>
+
+</body>
+</html>
